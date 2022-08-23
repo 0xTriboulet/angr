@@ -7,3 +7,10 @@ But it's possible to defeat this randomness through angr's symbolic execution en
 
 
 ![image](https://user-images.githubusercontent.com/22229087/186059483-120ff67f-6ec3-4e2d-9ed5-182d96f84ecf.png)
+
+
+Using angr's auto_load_libs=False and force_load_libs options, we can can import a custom rand() function, and generate deterministic
+"impossible passwords" during symbolic execution. The output clarity is improved for this script as demonstrated below.
+
+![image](https://user-images.githubusercontent.com/22229087/186065822-47ed6745-6901-4e4d-9d94-4e73ac6ea7a2.png)
+
