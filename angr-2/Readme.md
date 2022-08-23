@@ -5,5 +5,5 @@ solution is to this challenge is to patch the binary in order to either bypass t
 
 But it's possible to defeat this randomness through angr's symbolic execution engines.
 
-![image](https://user-images.githubusercontent.com/22229087/186059135-db58c152-5d6f-44fb-bf57-308b9d22a738.png)
 
+![image](https://user-images.githubusercontent.com/22229087/186059483-120ff67f-6ec3-4e2d-9ed5-182d96f84ecf.png)
