@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int one(){
-	int i = 0;
+	int i = 0; //this logic is a little broken by design
 	for(i=0;i<50;i++){
 		i += i;
 	}
