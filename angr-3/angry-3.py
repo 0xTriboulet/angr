@@ -23,4 +23,4 @@ result = simgr.explore(find=good, avoid=bad)
 
 if "found" in str(result):
     s = simgr.found[0]
-    print(s.posix.dumps(0)[0:4]+b"FLAG}",s.posix.dumps(1))
+    print(s.posix.dumps(0)[0:4]+b"ACTUAL FLAG OMITTED}",s.posix.dumps(1))
