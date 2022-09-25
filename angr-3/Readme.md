@@ -16,5 +16,6 @@ After some analysis with gdb and r2, we discover that angr is failing the ptrace
 
 
 **The Takeaway**
+
 Angr's ability to avoid addresses and strings is a very powerful capbility.
 
