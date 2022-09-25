@@ -4,7 +4,7 @@ In this script, we use Angr to attack the Headache challenge on HTB.
 
 This binary has a pretty robust anti-debugging instruction set, so tools like Ghidra and BinaryNinja are not super useful.
 
-Running a naive angr script against this binary gets us a false flag!
+In fact, running a naive angr script against this binary gets us a false flag!
 
 ![image](https://user-images.githubusercontent.com/22229087/192160117-1b0093b0-36b7-42b2-8189-ad10fcd349e2.png)
 
