@@ -12,7 +12,7 @@ In fact, running a naive angr script against this binary gets us a false flag!
 
 After some analysis with gdb and r2, we discover that angr is failing the ptrace checks that are baked into the program. We can overcome this in a couple of different ways, the easiest, is to simply tell angr to avoid the false flag!
 
-![image](https://user-images.githubusercontent.com/22229087/192160176-967b09e1-c6dd-4e72-99e4-7ba1c4aaf638.png)
+![image](https://user-images.githubusercontent.com/22229087/192160801-92873020-4881-4030-b2cd-a690ecb1df8f.png)
 
 
 **The Takeaway**
