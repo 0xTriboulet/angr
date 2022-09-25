@@ -2,7 +2,7 @@
 
 Angr's ability to symbolically execute programs is robust and capable of overcoming degrees of randomness that heuristic analysis cannot.
 
-HTB's Impossible Password challenge leverages a rand() system call to randomize the password required to access the flag. 
+HTB's Impossible Password challenge leverages a rand() system call to randomize the password required to access the flag. This random password is what makes this an "Impossible Password." 
 
 **The First Solution**
 
