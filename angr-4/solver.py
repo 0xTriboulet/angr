@@ -102,11 +102,6 @@ state.solver.add(n <= 126)
 state.solver.add(o <= 126)
 state.solver.add(p <= 126)
 
-
-
-
-
-
 q = state.solver.BVS("q",64)
 r = state.solver.BVS("r",64)
 s = state.solver.BVS("s",64)
@@ -126,11 +121,6 @@ state.solver.add(q <= 126)
 state.solver.add(r <= 126)
 state.solver.add(s <= 126)
 state.solver.add(t <= 126)
-
-
-
-
-
 
 u = state.solver.BVS("u",64)
 v = state.solver.BVS("v",64)
@@ -152,9 +142,6 @@ state.solver.add(v <= 126)
 state.solver.add(w <= 126)
 state.solver.add(x <= 126)
 
-
-
-
 aa = state.solver.BVS("aa",64)
 bb = state.solver.BVS("bb",64)
 cc = state.solver.BVS("cc",64)
@@ -174,8 +161,6 @@ state.solver.add(aa <= 126)
 state.solver.add(bb <= 126)
 state.solver.add(cc <= 126)
 state.solver.add(dd <= 126)
-
-
 
 ee = state.solver.BVS("ee",64)
 ff = state.solver.BVS("ff",64)
@@ -197,8 +182,6 @@ state.solver.add(ff <= 126)
 state.solver.add(gg <= 126)
 state.solver.add(hh <= 126)
 
-
-
 ii = state.solver.BVS("ii",64)
 jj = state.solver.BVS("jj",64)
 kk = state.solver.BVS("kk",64)
@@ -219,14 +202,9 @@ state.solver.add(jj <= 126)
 state.solver.add(kk <= 126)
 state.solver.add(ll <= 126)
 
-
 state.solver.add(dd^ee^ff == 0)
 state.solver.add(gg^hh^ii == 15)
 state.solver.add(jj^kk^ll == 48)
-
-
-
-
 
 mm = state.solver.BVS("mm",64)
 nn = state.solver.BVS("nn",64)
@@ -248,11 +226,6 @@ state.solver.add(nn <= 126)
 state.solver.add(oo <= 126)
 state.solver.add(pp <= 126)
 
-
-
-
-
-
 qq = state.solver.BVS("qq",64)
 rr = state.solver.BVS("rr",64)
 ss = state.solver.BVS("ss",64)
@@ -273,10 +246,6 @@ state.solver.add(rr <= 126)
 state.solver.add(ss <= 126)
 state.solver.add(tt <= 126)
 
-
-
-
-
 uu = state.solver.BVS("uu",64)
 vv = state.solver.BVS("vv",64)
 ww = state.solver.BVS("ww",64)
@@ -296,7 +265,6 @@ state.solver.add(uu <= 126)
 state.solver.add(vv <= 126)
 state.solver.add(ww <= 126)
 state.solver.add(xx <= 126)
-
 
 state.solver.add(vv^ww^xx == 58)
 
@@ -320,10 +288,6 @@ state.solver.add(bbb <= 126)
 state.solver.add(ccc <= 126)
 state.solver.add(ddd <= 126)
 
-
-
-
-
 eee = state.solver.BVS("eee",64)
 fff = state.solver.BVS("fff",64)
 ggg = state.solver.BVS("ggg",64)
@@ -343,8 +307,6 @@ state.solver.add(eee <= 126)
 state.solver.add(fff <= 126)
 state.solver.add(ggg <= 126)
 state.solver.add(hhh <= 126)
-
-
 
 iii = state.solver.BVS("iii",64)
 jjj = state.solver.BVS("jjj",64)
@@ -396,8 +358,3 @@ _b = [6, 106, 10, 0, 119, 52, 51, 101, 0, 0, 15, 48, 116, 22, 10, 58, 125, 100, 
 _c = [304, 357, 303, 320, 304, 307, 349, 305, 257, 337, 340, 309, 428, 270, 66]
 '''
 
-
-#[51, 94, 107, 52]
-#[108, 50, 52, 94]
-#[60, 64, 118, 61]
-#[100, 36, 64, 120]
