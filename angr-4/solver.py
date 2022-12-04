@@ -31,9 +31,6 @@ state.solver.add(b <= 126)
 state.solver.add(c <= 126)
 state.solver.add(d <= 126)
 
-
-
-
 e = state.solver.BVS("e",64)
 f = state.solver.BVS("f",64)
 g = state.solver.BVS("g",64)
@@ -54,9 +51,6 @@ state.solver.add(f <= 126)
 state.solver.add(g <= 126)
 state.solver.add(h <= 126)
 
-
-
-
 i = state.solver.BVS("i",64)
 j = state.solver.BVS("j",64)
 k = state.solver.BVS("k",64)
@@ -76,11 +70,6 @@ state.solver.add(i <= 126)
 state.solver.add(j <= 126)
 state.solver.add(k <= 126)
 state.solver.add(l <= 126)
-
-
-
-
-
 
 m = state.solver.BVS("m",64)
 n = state.solver.BVS("n",64)
